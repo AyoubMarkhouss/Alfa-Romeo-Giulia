@@ -25,7 +25,9 @@ const Finitions = () => {
             />
           </div>
           <div className="absolute -left-4 top-6 flex flex-col">
-            <h2 className="semi text-3xl  text-white">GIULIA SPRINT</h2>
+            <h2 className="semi text-3xl  text-white">
+              GIULIA <br /> SPRINT
+            </h2>
             <p className="text-xl text-white">Sportive et audacieuse</p>
           </div>
           <div className="absolute -bottom-16">
@@ -81,7 +83,9 @@ const Finitions = () => {
             />
           </div>
           <div className="absolute -left-4 top-6 flex flex-col">
-            <h2 className="semi text-3xl  text-white">GIULIA VELOCE</h2>
+            <h2 className="semi text-3xl  text-white">
+              GIULIA <br /> VELOCE
+            </h2>
             <p className="text-xl text-white">Performante et efficiente</p>
           </div>
           <div className="absolute -bottom-16">

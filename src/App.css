@@ -26,7 +26,6 @@
 }
 .embla__container {
   display: flex;
-  height: 100vh;
 }
 .embla__slide {
   flex:0 0 100%;

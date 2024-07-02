@@ -8,7 +8,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 
 const Navhero = () => {
-  const [emblaRef] = useEmblaCarousel({ loop: false }, [
+  const [emblaRef] = useEmblaCarousel({ loop: true }, [
     Autoplay({ delay: 6000 }),
   ]);
   return (
@@ -22,7 +22,7 @@ const Navhero = () => {
         height={2500}
       /> */}
       <div className="embla absolute" ref={emblaRef}>
-        <div className="embla__container ">
+        <div className="embla__container h-screen">
           <div className="embla__slide">
             <img
               src="/desktop.webp"

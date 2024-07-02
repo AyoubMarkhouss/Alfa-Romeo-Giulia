@@ -100,7 +100,12 @@ function Contact() {
             Civilité
           </label>
           <br />
-          <select id="salutation" name="salutation" className="w-full h-8 mb-2">
+          <select
+            id="salutation"
+            name="salutation"
+            className="w-full h-8 mb-2"
+            required
+          >
             <option value="">- Aucun -</option>
             <option value="Mr.">Mr.</option>
             <option value="Ms.">Ms.</option>
@@ -143,10 +148,11 @@ function Contact() {
           <br />
           <input
             id="mobile"
-            maxLength="40"
+            maxLength="10"
             name="mobile"
             size="20"
-            type="number"
+            type="tel"
+            pattern="[0-9]{10}"
             className="w-full h-8 mb-2"
             required
           />
