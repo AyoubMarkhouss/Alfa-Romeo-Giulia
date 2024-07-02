@@ -106,7 +106,7 @@ function Contact() {
             className="w-full h-8 mb-2"
             required
           >
-            <option value="">- Aucun -</option>
+            <option value="">-Aucun-</option>
             <option value="Mr.">Mr.</option>
             <option value="Ms.">Ms.</option>
             <option value="Mrs.">Mrs.</option>
